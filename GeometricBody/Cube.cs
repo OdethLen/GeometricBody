@@ -47,7 +47,7 @@ namespace GeometricBody
 			return Math.Pow(GetArea(),3);
 		}
 
-
+        //Cube class finisher
         ~Cube ()
 		{
 

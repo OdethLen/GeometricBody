@@ -72,7 +72,7 @@ namespace GeometricBody
             this.num_edges = num_edges;
         }
 
-        //Finisher  
+        //Fig3D class Finisher  
         ~Fig3D() 
         { 
         }

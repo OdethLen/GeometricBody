@@ -21,6 +21,15 @@ Console.WriteLine("Volume: " + CubeA.GetVolume());
 Console.WriteLine(CubeA.Dimentions());
 
 
+SquarePrism PrismA = new SquarePrism();
+PrismA.Name = "Square Prism ";
+PrismA.Num_vertices = 8;
+PrismA.Num_edges = 12;
+PrismA.Num_faces = 6;
+Console.WriteLine("\nName:" + PrismA.Name + "\nVertices number: " + PrismA.Num_vertices + "\nEdges number: " + PrismA.Num_edges + "\nFaces number: " + PrismA.Num_faces);
+PrismA.SideSP = 10.1;
+Console.WriteLine("Volume:" + PrismA.GetVolume(12));
+
 Cube CubeB = new Cube(0.3);
 //Finisher
 CubeB = null;
@@ -34,4 +43,5 @@ Console.WriteLine("\nName:" + CubeB.Name + "\nVertices number: " + CubeB.Num_ver
 Console.WriteLine("Area: " + CubeB.GetArea());
 Console.WriteLine("Volume: " + CubeB.GetVolume());
 Console.WriteLine(CubeB.Dimentions());
+
 

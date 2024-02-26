@@ -59,7 +59,7 @@ namespace GeometricBody
             return "Geometric body are geometric figures of three dimensions, width, length and depth.";
         }
 
-        public void CreateFigure(string name, int num_faces, int num_edges) // With several parameters
+        public void CreateFigure(string name, int num_faces, int num_edges) 
             
         {
             name = Name;
@@ -72,9 +72,19 @@ namespace GeometricBody
             this.num_edges = num_edges;
         }
 
+        public void GetVolume ()
+        {
+            Console.WriteLine   ( "Your geometric body has a volume ");
+        }
+
         //Fig3D class Finisher  
         ~Fig3D() 
         { 
+        }
+
+        public class Fig3d
+        {
+            ~Fig3d() { }
         }
     }
 }
